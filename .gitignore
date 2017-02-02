@@ -1,0 +1,7 @@
+/public_html/config.php
+composer.phar
+composer.lock
+vendor/
+vendor
+.idea/
+.idea

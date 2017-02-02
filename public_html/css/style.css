@@ -1,0 +1,196 @@
+/* ========== html elements ======================================================================================== */
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    /* font: 1em "Trebuchet MS", sans-serif; */
+    margin: 10px;
+}
+
+fieldset {
+    padding: 7px;
+    margin: 0px;
+}
+
+label {
+    margin-top: 8px;
+    margin-left: 5px;
+    display: block;
+}
+
+input {
+    /* margin-left: 3px; */
+    /* height: 1.5em; */
+    width: 250px;
+    padding: 3px;
+    font-size: 1em;
+}
+
+input[type="checkbox"]  { width: 25px }
+
+h1 {
+    font-size: 1.2em;
+    margin: .6em 0;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: crimson;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* ========== my divs ============================================================================================== */
+
+#layout-container {
+    width: 980px;
+    margin: 0px auto;
+    background-color: #fff;
+    color: #333;
+    line-height: 130%;
+}
+
+#top-banner {
+    padding-bottom: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+#bottom-banner {
+    clear: both;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+#layout-manage-container {
+    width: 800px;
+    margin: 0px auto;
+    background-color: #fff;
+    color: #333;
+    line-height: 130%;
+}
+
+#error-panel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: .7em;
+}
+
+#accordion {
+    margin-top: -2px; /* fixes some goofy jqueryui spacing */
+}
+
+
+
+
+/* ========== signup form ========================================================================================== */
+
+#layout-signup-container {
+    width: 800px; /* 560px; */
+    margin: 0px auto;
+    background-color: #fff;
+    color: #333;
+    line-height: 130%;
+}
+
+#layout-signup {
+    padding-bottom: 5px;
+    background-color: #fff;
+}
+
+#layout-signup h2 {
+    margin: 0 0 .5em 0;
+    font-size: 1.5em;
+    font-weight: bolder;
+    line-height: 1.15em;
+}
+
+
+
+/* ========== left rail ============================================================================================ */
+
+#layout-left-rail {
+    float: left;
+    width: 240px;
+    padding-right: 5px;
+    margin-bottom: 25px;
+}
+
+#layout-content {
+    float: right;
+    width: 735px;
+}
+#layout-content h2 {
+    margin: 0 0 .5em 0;
+}
+
+
+
+/* ========== utility stuff ======================================================================================== */
+
+.clear          { clear: both; }
+.center         { text-align: center; }
+.pad6           { padding: 6px; }
+.pad10          { padding: 10px; }
+.margin-b10     { margin-bottom: 10px; }
+.margin-t10     { margin-top: 10px; }
+.margin-r10     { margin-right: 10px; }
+.border1        { border: 1px solid; }
+.small-text     { font-size: .75em; }
+.text           { /* font: 1em "Trebuchet MS", sans-serif; */ }
+.hidden         { display: none; }
+.min-height-400 { min-height: 400px; }
+
+.hint {
+    color: red;
+    font-size: .6em;
+    display: block;
+}
+
+.row {
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.row:nth-of-type(odd) {
+    background: #e0e0e0;
+    padding: 5px;
+}
+
+.insiderow {
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.message {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 1.25em;
+    display: block;
+}
+
+
+/* ========== ribbons ============================================================================================== */
+
+/* The default background color is #c00 */
+.right-bottom .github-fork-ribbon {
+    background-color: #090;
+}
+
+.right .github-fork-ribbon {
+    background-color: #f80;
+}
+
+.left-bottom .github-fork-ribbon {
+    background-color: #333;
+}
+
+
+
+
+
